@@ -37,7 +37,13 @@
 <body>
   <h1>RIGHTBUSINESS PTE. LTD.</h1>
   <p>Our website is currently under construction.</p>
-  <p>Email: <a href="mailto:gazali.ahmad@outlook.com">gazali.ahmad@outlook.com</a></p>
+<p>Email: <span id="em"></span></p>
+<script>
+  const user = "gazali.ahmad";
+  const domain = "outlook.com";
+  const link = `mailto:${user}@${domain}`;
+  document.getElementById("em").innerHTML = `<a href="${link}">${user}@${domain}</a>`;
+</script>
   <p>Phone: +65 8808 5871</p>
   <footer>© 2025 RIGHTBUSINESS PTE. LTD. All rights reserved.</footer>
 </body>
