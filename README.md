@@ -1,8 +1,18 @@
-# License
+# RIGHTBUSINESS PTE. LTD.
 
-**© 2025 RIGHTBUSINESS PTE. LTD.**  
+This repository contains the source code for the official website of RIGHTBUSINESS PTE. LTD. (`https://www.rightbusiness.com.sg`).
+
+## Status
+
+🚧 **Under Construction**  
+The site is currently being prepared for launch.
+
+## Contact
+
+- 📧 Email: gazali.ahmad@outlook.com  
+- 📞 WhatsApp: +65 8808 5871
+
+## License
+
+© 2025 RIGHTBUSINESS PTE. LTD.  
 All rights reserved.
-
-No part of this website, its content, source code, or design may be reproduced, distributed, or transmitted in any form without prior written permission from RIGHTBUSINESS PTE. LTD.
-
-For inquiries, contact: [gazali.ahmad@outlook.com](mailto:gazali.ahmad@outlook.com)
