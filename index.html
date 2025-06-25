@@ -18,6 +18,7 @@
       margin: 0;
       text-align: center;
       flex-direction: column;
+      padding: 1rem;
     }
     h1 {
       font-family: 'Space Grotesk', sans-serif;
@@ -32,19 +33,26 @@
       margin-top: 2rem;
       font-size: 0.8rem;
     }
+    a {
+      color: inherit;
+    }
   </style>
 </head>
 <body>
   <h1>RIGHTBUSINESS PTE. LTD.</h1>
   <p>Our website is currently under construction.</p>
-<p>Email: <span id="em"></span></p>
-<script>
-  const user = "gazali.ahmad";
-  const domain = "outlook.com";
-  const link = `mailto:${user}@${domain}`;
-  document.getElementById("em").innerHTML = `<a href="${link}">${user}@${domain}</a>`;
-</script>
-  <p>Phone: +65 8808 5871</p>
-  <footer>© 2025 RIGHTBUSINESS PTE. LTD. All rights reserved.</footer>
+  <p>Email: <span id="em"></span></p>
+  <p>WhatsApp: <a href="https://wa.link/p3wubq" target="_blank">+65 8808 5871</a></p>
+  <img src="wa.png" alt="WhatsApp QR" width="150" style="margin-top:1rem;" />
+  <p>UEN: 202500026W</p>
+  <footer>© 2025 RIGHTBUSINESS PTE. LTD. · All rights reserved.</footer>
+
+  <script>
+    const user = "gazali.ahmad";
+    const domain = "outlook.com";
+    const link = `mailto:${user}@${domain}`;
+    document.getElementById("em").innerHTML = `<a href="${link}">${user}@${domain}</a>`;
+  </script>
+  
 </body>
 </html>
